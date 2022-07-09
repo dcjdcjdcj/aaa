@@ -7,7 +7,7 @@ public class E {
     @RequestMapping("e")
     @ResponseBody
     public  String  e(){
-        System.out.println("e" );
+
         System.out.println("eeeeeee" );
         return "eee";
     }
