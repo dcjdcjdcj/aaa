@@ -8,6 +8,7 @@ public class E {
     @ResponseBody
     public  String  e(){
         System.out.println("e" );
+        System.out.println("eeeeeee" );
         return "eee";
     }
 }
