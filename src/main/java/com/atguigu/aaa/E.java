@@ -9,6 +9,7 @@ public class E {
     public  String  e(){
 
         System.out.println("额" );
+        System.out.println("ee");
         return "eee";
     }
 }
