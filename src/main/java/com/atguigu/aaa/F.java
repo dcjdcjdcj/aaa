@@ -9,7 +9,7 @@ public class F {
     public  String  f(){
 
         System.out.println("fffffF");
-
+        System.out.println("f = " );
         return "fff";
     }
 }

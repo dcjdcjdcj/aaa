@@ -7,6 +7,7 @@ public class D {
     @ResponseBody
     public  String  d(){
         System.out.println("true = " + true);
+        System.out.println("false = " + false);
         return "ddd";
     }
 }
