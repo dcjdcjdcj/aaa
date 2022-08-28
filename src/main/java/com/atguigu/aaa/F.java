@@ -9,6 +9,7 @@ public class F {
     public  String  f(){
 
         System.out.println("fffffF");
+
         return "fff";
     }
 }

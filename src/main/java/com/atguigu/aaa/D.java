@@ -6,7 +6,7 @@ public class D {
     @RequestMapping("d")
     @ResponseBody
     public  String  d(){
-
+        System.out.println("true = " + true);
         return "ddd";
     }
 }

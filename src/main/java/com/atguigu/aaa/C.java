@@ -8,6 +8,7 @@ public class C {
     @RequestMapping("a")
     @ResponseBody
     public  String  c(){
+        System.out.println("true = " + true);
         return "hhh";
     }
 }
