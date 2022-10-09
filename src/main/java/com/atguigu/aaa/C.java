@@ -9,7 +9,6 @@ public class C {
     @ResponseBody
     public  String  c(){
         System.out.println("true = " + true);
-        System.out.println("cccc = " + true);
         return "hhh";
     }
 }

@@ -8,7 +8,6 @@ public class D {
     public  String  d(){
         System.out.println("true = " + true);
         System.out.println("false = " + false);
-        System.out.println("ddddd = " + false);
         return "ddd";
     }
 }
