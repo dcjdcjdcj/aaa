@@ -33,27 +33,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <!--            解析excel 依赖  使用 easyexcel 这个-->
-            <!--           使用他之前需要引入org.apache.poi 这个依赖才可以使用  这个依赖已经在父模块引入过 这里就不需要引入了-->
-            <!--            使用easyexcel 2.1.1 版本 必须使用 poi的版本为3.17 否在会报错-->
-            <groupId>com.alibaba</groupId>
-            <artifactId>easyexcel</artifactId>
-            <version>2.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.20</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>
